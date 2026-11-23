@@ -9,17 +9,3 @@ Project Objective
 
 This project builds an end-to-end binary classification pipeline on the IBM Telco Customer Churn dataset (7,043 customers, 20 features), covering the full CRISP-DM cycle from data exploration through modeling, evaluation, and error analysis. Three models are trained and compared — Logistic Regression, Random Forest, and XGBoost — using ROC-AUC and recall as the primary metrics, reflecting the asymmetric cost of missing a churner versus sending an unnecessary retention offer.
 
-
-Requirements
-
-Python 3.x
-
-pandas, numpy
-
-matplotlib, seaborn
-
-scikit-learn
-
-xgboost
-
-imbalanced-learn
